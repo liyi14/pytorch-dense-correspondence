@@ -27,7 +27,7 @@ pip install --upgrade pip==9.0.3
 pip install -U setuptools
 
 apt-get -y install ipython ipython-notebook
-pip install \
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple \
   jupyter \
   opencv-python \
   plyfile \
